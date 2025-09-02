@@ -182,15 +182,27 @@
 
 // opdracht 12
 // variables
-int seconden;
-int minuut;
-int uur;
+//int seconden;
+//int minuut;
+//int uur;
+//int main(void) {
+//
+//	printf_s("tijd in seconden \n");
+//	scanf_s("%d", &seconden);
+//	uur = seconden / 3600;
+//	minuut = (seconden - uur * 3600) / 60;
+//	seconden = (seconden - uur * 3600) % 60;
+//	printf_s("uren = %d, minuten: %d, seconden: %d", uur, minuut, seconden);
+//}
+
+// opdracht 13
+// variables
+int input;
+
 int main(void) {
-	// u/r = i
-	printf_s("tijd in seconden \n");
-	scanf_s("%d", &seconden);
-	uur = seconden / 3600;
-	minuut = (seconden - uur * 3600) / 60;
-	seconden = (seconden - uur * 3600) % 60;
-	printf_s("uren = %d, minuten: %d, seconden: %d", uur, minuut, seconden);
+	
+	printf_s("geef een getal waarvan je het kwadrant wilt hebben \n");
+	scanf_s("%d", &input);
+	input = input * input;
+	printf_s("output: %d", input);
 }
