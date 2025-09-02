@@ -156,13 +156,26 @@
 
 // opdracht 10
 // variables
-float spanning;
-float weerstand;
-float stroomsterkte;
+//float spanning;
+//float weerstand;
+//float stroomsterkte;
+//int main(void) {
+//	// u/r = i
+//	printf_s("typ een spanning en weerstand \n");
+//	scanf_s("%f" "%f", &spanning, &weerstand);
+//	stroomsterkte = spanning / weerstand;
+//	printf_s("stroomsterkte = %f", stroomsterkte);
+//}
+
+// opdracht 11
+// variables
+int teller;
+int noemer;
+int overgebleven;
 int main(void) {
 	// u/r = i
-	printf_s("typ een spanning en weerstand \n");
-	scanf_s("%f" "%f", &spanning, &weerstand);
-	stroomsterkte = spanning / weerstand;
-	printf_s("stroomsterkte = %f", stroomsterkte);
+	printf_s("teller en noemer \n");
+	scanf_s("%d" "%d", &teller, &noemer);
+	overgebleven = teller % noemer;
+	printf_s("modulo = %d", overgebleven);
 }
