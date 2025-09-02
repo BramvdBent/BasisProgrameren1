@@ -83,22 +83,32 @@
 
 // opdracht 5:
 // variables
-int a, b;
+//int a, b;
+//
+//
+//int main(void) {
+//		printf_s("kies 2 getallen om te vergelijken\n");
+//		scanf_s("%d %d", &a, &b);
+//		// evengroot
+//		if (a == b) {
+//			printf_s("de getallen zijn even groot");
+//		}
+//		else if (a < 0 or b < 0) {
+//			printf_s("kies positieve getallen");
+//		}
+//		else if (a != b) {
+//			printf_s("de getallen zijn niet gelijk aan elkaar");
+//		}
+//		return 0;
+//
+//}
 
+// opdracht 6
+// variables
+float a;
 
-int main(void) {
-		printf_s("kies 2 getallen om te vergelijken\n");
-		scanf_s("%d %d", &a, &b);
-		// evengroot
-		if (a == b) {
-			printf_s("de getallen zijn even groot");
-		}
-		else if (a < 0 or b < 0) {
-			printf_s("kies positieve getallen");
-		}
-		else if (a != b) {
-			printf_s("de getallen zijn niet gelijk aan elkaar");
-		}
-		return 0;
-
+int main(void)
+{
+	scanf_s("%f", &a);
+	printf_s("%.4f", a);
 }
