@@ -15,12 +15,37 @@
 
 // opdracht 2:
 //variables
-int a, b, c;
-int gemiddelde;
+//int a, b, c;
+//int gemiddelde;
+//int main(void) {
+//	printf_s("kies 3 getallen om het gemiddelde van te berekenen\n");
+//	scanf_s("%d %d %d", &a, &b, &c);
+//	gemiddelde = (a + b + c) / 3;
+//	printf_s("het gemidelde is %d", gemiddelde);
+//	return 0;
+//}
+
+// opdracht 3:
+// variables
+int a, b, grootste_getal;
+
+
 int main(void) {
-	printf_s("kies 3 getallen om het gemiddelde van te berekenen\n");
-	scanf_s("%d %d %d", &a, &b, &c);
-	gemiddelde = (a + b + c) / 3;
-	printf_s("het gemidelde is %d", gemiddelde);
-	return 0;
+		printf_s("kies 2 getallen om te vergelijken\n");
+		scanf_s("%d %d", &a, &b);
+		// evengroot
+		if (a == b) {
+			printf_s("de getallen zijn even groot");
+		}
+		// a is het grootst
+		if (a > b) {
+			grootste_getal = a;
+		}
+		// b is het grootst
+		if (a < b) {
+			grootste_getal = b;
+		}
+		printf_s("het grootste getal is: %d", grootste_getal);
+		return 0;
+
 }
