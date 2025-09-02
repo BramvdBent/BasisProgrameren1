@@ -145,11 +145,24 @@
 
 // opdracht 9
 // variables
-float omrekenfactor = 3.6;
-float snelheid;
+//float omrekenfactor = 3.6;
+//float snelheid;
+//int main(void) {
+//	printf_s("typ een snelheid in km/h \n");
+//	scanf_s("%f", &snelheid);
+//	snelheid = snelheid / omrekenfactor;
+//	printf_s("je snelheid in m/s is: %f", snelheid);
+//}
+
+// opdracht 10
+// variables
+float spanning;
+float weerstand;
+float stroomsterkte;
 int main(void) {
-	printf_s("typ een snelheid in km/h \n");
-	scanf_s("%f", &snelheid);
-	snelheid = snelheid / omrekenfactor;
-	printf_s("je snelheid in m/s is: %f", snelheid);
+	// u/r = i
+	printf_s("typ een spanning en weerstand \n");
+	scanf_s("%f" "%f", &spanning, &weerstand);
+	stroomsterkte = spanning / weerstand;
+	printf_s("stroomsterkte = %f", stroomsterkte);
 }
