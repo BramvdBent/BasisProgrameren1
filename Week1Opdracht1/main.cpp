@@ -1,14 +1,16 @@
 #include <stdio.h>
 
+
+
+// opdracht 1:
 //variables
-float a=7, b=8, c=10;
+//int leeftijd;
+//
+//int main(void)
+//{
+//	scanf_s("%d", &leeftijd);
+//	leeftijd *= 12;
+//	printf_s("leeftijd in maanden is:\n%d", leeftijd);
+//}
 
-
-
-//main
-int main(void){
-	scanf_s("%d", &a);
-	printf_s("============== \n");
-	printf_s("test modulo = %d \n",a);
-	printf_s("============== \n");
-}
+// opdracht 2:
