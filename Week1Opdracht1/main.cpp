@@ -27,25 +27,56 @@
 
 // opdracht 3:
 // variables
-int a, b, grootste_getal;
+//int a, b, grootste_getal;
+//
+//
+//int main(void) {
+//		printf_s("kies 2 getallen om te vergelijken\n");
+//		scanf_s("%d %d", &a, &b);
+//		// evengroot
+//		if (a == b) {
+//			printf_s("de getallen zijn even groot");
+//		}
+//		// a is het grootst
+//		if (a > b) {
+//			grootste_getal = a;
+//		}
+//		// b is het grootst
+//		if (a < b) {
+//			grootste_getal = b;
+//		}
+//		printf_s("het grootste getal is: %d", grootste_getal);
+//		return 0;
+//
+//}
+
+// opdracht 4:
+// variables
+int a, b, c, grootste_getal;
 
 
 int main(void) {
-		printf_s("kies 2 getallen om te vergelijken\n");
-		scanf_s("%d %d", &a, &b);
+		printf_s("kies 3 getallen om te vergelijken\n");
+		scanf_s("%d %d %d", &a, &b, &c);
 		// evengroot
-		if (a == b) {
-			printf_s("de getallen zijn even groot");
+		if (a == b and a == c) {
+			printf_s("de getallen zijn even groot\n");
+			grootste_getal = a;
 		}
 		// a is het grootst
-		if (a > b) {
+		else if (a > b and a > c) 
+		{
 			grootste_getal = a;
 		}
 		// b is het grootst
-		if (a < b) {
+		else if (b > a and b > c) {
 			grootste_getal = b;
+		}
+		// c is het grootst
+		else
+		{
+			grootste_getal = c;
 		}
 		printf_s("het grootste getal is: %d", grootste_getal);
 		return 0;
-
 }
