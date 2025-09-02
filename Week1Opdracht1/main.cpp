@@ -134,11 +134,22 @@
 
 // opdracht 8
 // variables
-float btw = 1.21;
-float bedrag;
+//float btw = 1.21;
+//float bedrag;
+//int main(void) {
+//	printf_s("typ een prijs in excl btw \n");
+//	scanf_s("%f", &bedrag);
+//	bedrag = bedrag * btw;
+//	printf_s("het bedrag met btw is: %f", bedrag);
+//}
+
+// opdracht 9
+// variables
+float omrekenfactor = 3.6;
+float snelheid;
 int main(void) {
-	printf_s("typ een prijs in excl btw \n");
-	scanf_s("%f\n", &bedrag);
-	bedrag = bedrag * btw;
-	printf_s("het bedrag met btw is: %f", bedrag);
+	printf_s("typ een snelheid in km/h \n");
+	scanf_s("%f", &snelheid);
+	snelheid = snelheid / omrekenfactor;
+	printf_s("je snelheid in m/s is: %f", snelheid);
 }
