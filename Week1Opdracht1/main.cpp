@@ -105,10 +105,27 @@
 
 // opdracht 6
 // variables
-float a;
+//float a;
+//
+//int main(void)
+//{
+//	scanf_s("%f", &a);
+//	printf_s("%.4f", a);
+//}
 
-int main(void)
-{
-	scanf_s("%f", &a);
-	printf_s("%.4f", a);
+// opdracht 7
+// variables
+float pi = 3.141592;
+float radius;
+float omtrek;
+float oppervlakte; 
+
+int main(void) {
+	scanf_s("%f", &radius);
+		//omtrek = 2pi * r
+		omtrek = 2 * pi * radius;
+		printf_s("omtrek: %f\n", omtrek);
+	//oppervlakte pi**2 * r
+		oppervlakte =  pi * pi * radius;
+		printf_s("oppervlakte: %f\n", oppervlakte);
 }
