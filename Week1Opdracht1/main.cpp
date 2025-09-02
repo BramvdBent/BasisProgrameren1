@@ -115,17 +115,30 @@
 
 // opdracht 7
 // variables
-float pi = 3.141592;
-float radius;
-float omtrek;
-float oppervlakte; 
+//float pi = 3.141592;
+//float radius;
+//float omtrek;
+//float oppervlakte; 
+//
+//int main(void) {
+//	scanf_s("%f", &radius);
+//		//omtrek = 2pi * r
+//		omtrek = 2 * pi * radius;
+//		printf_s("omtrek: %f\n", omtrek);
+//	//oppervlakte pi**2 * r
+//		oppervlakte =  pi * pi * radius;
+//		printf_s("oppervlakte: %f\n", oppervlakte);
+//}
 
+
+
+// opdracht 8
+// variables
+float btw = 1.21;
+float bedrag;
 int main(void) {
-	scanf_s("%f", &radius);
-		//omtrek = 2pi * r
-		omtrek = 2 * pi * radius;
-		printf_s("omtrek: %f\n", omtrek);
-	//oppervlakte pi**2 * r
-		oppervlakte =  pi * pi * radius;
-		printf_s("oppervlakte: %f\n", oppervlakte);
+	printf_s("typ een prijs in excl btw \n");
+	scanf_s("%f\n", &bedrag);
+	bedrag = bedrag * btw;
+	printf_s("het bedrag met btw is: %f", bedrag);
 }
