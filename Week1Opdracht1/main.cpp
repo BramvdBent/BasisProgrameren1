@@ -169,13 +169,28 @@
 
 // opdracht 11
 // variables
-int teller;
-int noemer;
-int overgebleven;
+//int teller;
+//int noemer;
+//int overgebleven;
+//int main(void) {
+//	// u/r = i
+//	printf_s("teller en noemer \n");
+//	scanf_s("%d" "%d", &teller, &noemer);
+//	overgebleven = teller % noemer;
+//	printf_s("modulo = %d", overgebleven);
+//}
+
+// opdracht 12
+// variables
+int seconden;
+int minuut;
+int uur;
 int main(void) {
 	// u/r = i
-	printf_s("teller en noemer \n");
-	scanf_s("%d" "%d", &teller, &noemer);
-	overgebleven = teller % noemer;
-	printf_s("modulo = %d", overgebleven);
+	printf_s("tijd in seconden \n");
+	scanf_s("%d", &seconden);
+	uur = seconden / 3600;
+	minuut = (seconden - uur * 3600) / 60;
+	seconden = (seconden - uur * 3600) % 60;
+	printf_s("uren = %d, minuten: %d, seconden: %d", uur, minuut, seconden);
 }
