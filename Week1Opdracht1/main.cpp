@@ -209,21 +209,21 @@
 
 // opdracht 14
 // variables
-int input;
-
-int main(void) {
-
-	printf_s("typ 1 voor kwadraat 2 voor 3rde macht \n");
-	scanf_s("%d", &input);
-	if (input == 1) {
-		printf_s("typ een getal voor kwadraat \n");
-		scanf_s("%d", &input);
-		input = input * input;
-	}
-	if (input == 2) {
-		printf_s("typ een getal voor 3rde macht \n");
-		scanf_s("%d", &input);
-		input = input * input * input;
-	}
-	printf_s("output: %d", input);
-}
+//int input;
+//
+//int main(void) {
+//
+//	printf_s("typ 1 voor kwadraat 2 voor 3rde macht \n");
+//	scanf_s("%d", &input);
+//	if (input == 1) {
+//		printf_s("typ een getal voor kwadraat \n");
+//		scanf_s("%d", &input);
+//		input = input * input;
+//	}
+//	if (input == 2) {
+//		printf_s("typ een getal voor 3rde macht \n");
+//		scanf_s("%d", &input);
+//		input = input * input * input;
+//	}
+//	printf_s("output: %d", input);
+//}
